@@ -38,7 +38,8 @@ public function actionTest2()
        var_dump($list);exit;
    }
 ```
-#### params:
+Params
+-----
  1) the first params is search directory relative path
  2) the second params is will to substr base path for relative path
  3) the third params is search file name to filter files.
