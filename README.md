@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist snuday/yii2-filemanage "*"
+php composer.phar require --prefer-dist king52311/yii2-filemanage "*"
 ```
 
 or add
 
 ```
-"snuday/yii2-filemanage": "*"
+"king52311/yii2-filemanage": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,17 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \snuday\filemanage\AutoloadExample::widget(); ?>```
+
+use king52311\filemanage\Filemanage;
+
+......
+public function actionTest2()
+   {
+       $list = Filemanage::showFileList('./','/base/path/','aaa.txt');
+       var_dump($list);exit;
+   }
+```
+
+ 1) the first params is search directory relative path
+ 2) the second params is will to substr base path for relative path
+ 3) the third params is search file name to filter files.
