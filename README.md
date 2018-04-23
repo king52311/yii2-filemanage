@@ -73,4 +73,6 @@ Params
       'file_type' => int 1
       'file_ids' => string '' (length=0)
       ... ...
+      
+ file_type: 1 file 2 directory
  ```
