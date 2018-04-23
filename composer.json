@@ -1,0 +1,21 @@
+{
+    "name": "snuday/yii2-filemanage",
+    "description": "File Manage for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","file-manage"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "snuday",
+            "email": "sunday.airs@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "snuday\\filemanage\\": ""
+        }
+    }
+}
