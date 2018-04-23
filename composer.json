@@ -1,5 +1,5 @@
 {
-    "name": "snuday/yii2-filemanage",
+    "name": "king52311/yii2-filemanage",
     "description": "File Manage for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","file-manage"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "snuday\\filemanage\\": ""
+            "king52311\\filemanage\\": ""
         }
     }
 }
