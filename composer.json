@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "king52311\\filemanage\\": ""
+            "king52311\\filemanage\\": "src/"
         }
     }
 }
